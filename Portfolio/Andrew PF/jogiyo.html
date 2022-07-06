@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Jogiyo</title>
+        <link href="./styles/jogiyo.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="background">
+            <div class="upper">
+                <div class="upper_title">요기요</div>
+                <div class="upper_login" id="loginBtn" onclick="loginBtn()">로그인</div>
+            </div>
+
+            <div class="wrapper">
+                <div class="wrapper_top">
+                    <div class="wrapper_top_text1">"어디로 배달해드릴까요?"</div>
+                    <div class="wrapper_top_text2">배달받으실 동 이름으로 검색해주세요</div>
+                    <div class="wrapper_top_searchbox">
+                        <div class="searchbox_img"></div>
+                        <div class="searchbox_textbox">
+                            <input
+                                type="text"
+                                name="searchbox"
+                                size="20"
+                                value="건물명, 도로명, 지번으로 검색하세요."
+                            />
+                        </div>
+                        <div class="searchBtn" id="searchBtn" onclick="searchBtn()">검색</div>
+                    </div>
+                </div>
+
+                <div class="wrapper_body">
+                    <div class="wrapper_body_line1">
+                        <div class="line1_menu1" id="line1_menu1" onclick="line1_menu1()">
+                            매일매일 맛있는 할인 추천
+                        </div>
+                        <div class="line1_menu2" id="line1_menu2" onclick="line1_menu2()">
+                            전체보기
+                        </div>
+                        <div class="line1_menu3" id="line1_menu3" onclick="line1_menu3()">
+                            1인분 주문
+                        </div>
+                        <div class="line1_menu4" id="line1_menu4" onclick="line1_menu4()">
+                            프랜차이즈
+                        </div>
+                    </div>
+
+                    <div class="wrapper_body_line2">
+                        <div class="line2_menu1" id="line2_menu1" onclick="line2_menu1()">치킨</div>
+                        <div class="line2_menu2" id="line2_menu2" onclick="line2_menu2()">
+                            피자/양식
+                        </div>
+                        <div class="line2_menu3" id="line2_menu3" onclick="line2_menu3()">
+                            중국집
+                        </div>
+                        <div class="line2_menu4" id="line2_menu4" onclick="line2_menu4()">한식</div>
+                    </div>
+
+                    <div class="wrapper_body_line3">
+                        <div class="line3_menu1" id="line3_menu1" onclick="line3_menu1()">
+                            일식/돈까스
+                        </div>
+                        <div class="line3_menu2" id="line3_menu2" onclick="line3_menu2()">
+                            족발/보쌈
+                        </div>
+                        <div class="line3_menu3" id="line3_menu3" onclick="line3_menu3()">야식</div>
+                        <div class="line3_menu4" id="line3_menu4" onclick="line3_menu4()">분식</div>
+                    </div>
+
+                    <div class="wrapper_body_line4">
+                        <div class="line4_menu1" id="line4_menu1" onclick="line4_menu1()">
+                            카페/디저트
+                        </div>
+                        <div class="line4_menu2" id="line4_menu2" onclick="line4_menu2()">
+                            편의점/마트
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

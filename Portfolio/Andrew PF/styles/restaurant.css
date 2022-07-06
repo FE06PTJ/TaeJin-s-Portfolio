@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.upper {
+    background-color: red;
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+}
+
+.wrapper_left {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.channel1 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.channel2 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.channel3 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.channel4 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.channel5 {
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.wrapper_right {
+    background-image: url("../images/korea1.png");
+    background-size: 100% 100%;
+}

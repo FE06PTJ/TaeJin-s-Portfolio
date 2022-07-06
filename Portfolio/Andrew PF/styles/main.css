@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.upper {
+    background-color: yellow;
+    cursor: pointer;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80%;
+}

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.upper {
+    background-color: yellow;
+    cursor: pointer;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 80%;
+    padding-left: 5px;
+}
+
+.wrapper_contact {
+    background-image: url("../images/contact1.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapper_restaurant {
+    background-image: url("../images/restaurant1.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapper_jogiyo {
+    background-image: url("../images/jogiyo1.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapper_movie {
+    background-image: url("../images/movie1.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapper_music {
+    background-image: url("../images/music1.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

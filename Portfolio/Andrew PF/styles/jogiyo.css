@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+
+.upper {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 25% 20px 25%;
+    /* margin: 0 20% 0 20%; */
+}
+
+.upper_title {
+    width: 150px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.upper_login {
+    width: 150px;
+    height: 40px;
+    border: solid 2px;
+    border-color: white;
+    color: white;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapper {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.wrapper_top {
+    width: 100%;
+    height: 220px;
+    flex-direction: row;
+    background-color: blue;
+    padding-top: 20px;
+}
+
+.wrapper_top_text1 {
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wrapper_top_text2 {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    /* padding-top: 10px; */
+}
+
+.wrapper_top_searchbox {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    padding-left: 40%;
+    padding-top: 30px;
+}
+
+.searchbox_img {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.searchbox_textbox {
+    width: 312px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.searchBtn {
+    width: 60px;
+    height: 40px;
+    background-color: orange;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper_body {
+    width: 100%;
+    height: 800px;
+    padding: 40px 25% 20px 25%;
+}
+
+/* 첫줄 */
+.wrapper_body_line1 {
+    width: 100%;
+    height: 226px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.line1_menu1 {
+    width: 240px;
+    height: 216px;
+    background-color: gray;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line1_menu2 {
+    width: 240px;
+    height: 216px;
+    background-color: gray;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line1_menu3 {
+    width: 240px;
+    height: 216px;
+    background-color: gray;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line1_menu4 {
+    width: 240px;
+    height: 216px;
+    background-color: gray;
+    margin: 5px;
+    border: solid 2px;
+}
+/* 두번째줄 */
+.wrapper_body_line2 {
+    width: 100%;
+    height: 226px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.line2_menu1 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line2_menu2 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line2_menu3 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line2_menu4 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+/* 셋째줄 */
+.wrapper_body_line3 {
+    width: 100%;
+    height: 226px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.line3_menu1 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line3_menu2 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line3_menu3 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+
+.line3_menu4 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+    border: solid 2px;
+}
+/* 넷째줄 */
+.wrapper_body_line4 {
+    width: 100%;
+    height: 226px;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+
+.line4_menu1 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+
+    border: solid 2px;
+}
+
+.line4_menu2 {
+    width: 240px;
+    height: 216px;
+    margin: 5px;
+
+    border: solid 2px;
+}
