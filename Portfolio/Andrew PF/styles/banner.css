@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.home {
+    width: 240px;
+    height: 360px;
+    background-color: cadetblue;
+}
+
+.homeBtn {
+    width: 220px;
+    height: 40px;
+    margin: 10px;
+    background-color: aquamarine;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.homeImg {
+    width: 240px;
+    height: 300px;
+    background-color: bisque;
+}
+
+.menuBtn {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 300px;
+    background-color: yellow;
+}
+
+.contactBtn {
+    width: 220px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.restaurantBtn {
+    width: 220px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jogiyoBtn {
+    width: 220px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.movieBtn {
+    width: 220px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.musicBtn {
+    width: 220px;
+    height: 60px;
+    background-color: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}

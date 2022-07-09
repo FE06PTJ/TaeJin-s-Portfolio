@@ -6,7 +6,7 @@
 }
 
 .background {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     width: 100%;
     height: 100%;
 }
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 25% 20px 25%;
+    padding: 20px 15% 20px 15%;
     /* margin: 0 20% 0 20%; */
 }
 
@@ -49,9 +49,12 @@
 
 .wrapper_top {
     width: 100%;
-    height: 220px;
+    height: 270px;
+    background-image: url("../images/jogiyo3.png");
+    background-size: 100% 100%;
+
     flex-direction: row;
-    background-color: blue;
+    /* background-color: blue; */
     padding-top: 20px;
 }
 
@@ -80,7 +83,7 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    background-color: beige;
+    /* background-color: beige; */
     padding-left: 40%;
     padding-top: 30px;
 }
@@ -88,9 +91,11 @@
 .searchbox_img {
     width: 40px;
     height: 40px;
-    background-color: red;
+    background-image: url("../images/location1.png");
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
+
     border-radius: 10px;
 }
 
@@ -116,47 +121,50 @@
 .wrapper_body {
     width: 100%;
     height: 800px;
-    padding: 40px 25% 20px 25%;
+    padding: 40px 15% 20px 15%;
 }
 
 /* 첫줄 */
 .wrapper_body_line1 {
     width: 100%;
     height: 226px;
-    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
 }
 
 .line1_menu1 {
-    width: 240px;
+    width: 25%;
     height: 216px;
-    background-color: gray;
+    background-image: url("../images/todaysale1.png");
+    background-size: 100% 100%;
     margin: 5px;
     border: solid 2px;
 }
 
 .line1_menu2 {
-    width: 240px;
+    width: 25%;
     height: 216px;
-    background-color: gray;
+    background-image: url("../images/menu1.png");
+    background-size: 100% 100%;
     margin: 5px;
     border: solid 2px;
 }
 
 .line1_menu3 {
-    width: 240px;
+    width: 25%;
     height: 216px;
-    background-color: gray;
+    background-image: url("../images/onedish1.png");
+    background-size: 100% 100%;
     margin: 5px;
     border: solid 2px;
 }
 
 .line1_menu4 {
-    width: 240px;
+    width: 25%;
     height: 216px;
-    background-color: gray;
+    background-image: url("../images/franchise1.png");
+    background-size: 100% 100%;
     margin: 5px;
     border: solid 2px;
 }
@@ -164,35 +172,46 @@
 .wrapper_body_line2 {
     width: 100%;
     height: 226px;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: row;
 }
 
 .line2_menu1 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/chicken1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line2_menu2 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/pizza1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line2_menu3 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/chinesefood1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line2_menu4 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/koreanfood1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
@@ -200,35 +219,46 @@
 .wrapper_body_line3 {
     width: 100%;
     height: 226px;
-    background-color: brown;
     display: flex;
     flex-direction: row;
 }
 
 .line3_menu1 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/japanesefood1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line3_menu2 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/bossam1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line3_menu3 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/nightfood1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
 
 .line3_menu4 {
-    width: 240px;
+    width: 25%;
     height: 216px;
+    background-image: url("../images/ddeokbboki1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
     border: solid 2px;
 }
@@ -236,22 +266,27 @@
 .wrapper_body_line4 {
     width: 100%;
     height: 226px;
-    background-color: azure;
     display: flex;
     flex-direction: row;
 }
 
 .line4_menu1 {
-    width: 240px;
+    width: 24.2%;
     height: 216px;
+    background-image: url("../images/cafedessert1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
 
     border: solid 2px;
 }
 
 .line4_menu2 {
-    width: 240px;
+    width: 24.2%;
     height: 216px;
+    background-image: url("../images/mart1.png");
+    background-size: 100% 100%;
+
     margin: 5px;
 
     border: solid 2px;
