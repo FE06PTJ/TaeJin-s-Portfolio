@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Melon</title>
+        <link href="./styles/melon.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="background">
+            <div class="wrapper">
+                <div class="wrapper_top">
+                    <div class="wrapper_top_left">멜론 티켓</div>
+                    <div class="wrapper_top_right">
+                        <div class="navigation_itemPurchase" id="itemPurchase" onclick="">
+                            이용권구매
+                        </div>
+                        <div class="navigation_melonRounge" id="melonRounge" onclick="">
+                            멜론라운지
+                        </div>
+                        <div class="navigation_event" id="event" onclick="">이벤트</div>
+                        <div class="navigation_notice" id="notice" onclick="">공지사항</div>
+                    </div>
+                </div>
+                <div class="wrapper_middle">
+                    <div class="wrapper_middle_left"></div>
+                    <div class="wrapper_middle_center">
+                        <div class="searchbox_textbox">
+                            <input
+                                type="text"
+                                name="searchbox"
+                                size="20"
+                                value="가수, 제목, 연도를 검색하세요"
+                            />
+                        </div>
+                        <div class="searchBtn" id="searchBtn" onclick="">검색</div>
+                    </div>
+                    <div class="wrapper_middle_right">
+                        <div class="img1"></div>
+                    </div>
+                </div>
+                <div class="wrapper_bottom">
+                    <div class="wrapper_bottom_left">
+                        <div class="navigation_melonChart" id="melonChart" onclick="">멜론차트</div>
+                        <div class="navigation_recentMusic" id="recentMusic" onclick="">
+                            최신음악
+                        </div>
+                        <div class="navigation_janreMusic" id="janreMusic" onclick="">장르음악</div>
+                        <div class="navigation_melonDj" id="melonDj" onclick="">멜론DJ</div>
+                        <div class="navigation_melonTv" id="melonTv" onclick="">멜론TV</div>
+                        <div class="navigation_starPost" id="starPost" onclick="">스타포스트</div>
+                        <div class="navigation_magazine" id="magazine" onclick="">매거진</div>
+                        <div class="navigation_musicAward" id="musicAward" onclick="">
+                            뮤직어워드
+                        </div>
+                        <div class="navigation_langauageStudy" id="langauageStudy" onclick="">
+                            어학
+                        </div>
+                    </div>
+                    <div class="wrapper_bottom_right">
+                        <div class="navigation_myMusic" id="myMusic" onclick="">마이뮤직</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body">
+                <div class="body_upper">
+                    <div class="body_album">
+                        <div class="body_album_wrapper">
+                            <div class="album_wrapper_left">
+                                <div class="navigation_recentAlbum" id="recentAlbum" onclick="">
+                                    최신 앨범
+                                </div>
+                            </div>
+                            <div class="album_wrapper_middle">
+                                <div class="navigation_entire" id="entire" onclick="">전체</div>
+                                <div class="navigation_song" id="song" onclick="">가요</div>
+                                <div class="navigation_pop" id="pop" onclick="">pop</div>
+                            </div>
+                            <div class="album_wrapper_right">
+                                <div class="naviagtion_albumPage" id="albumPage" onclick="">
+                                    1/9
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body_album_content">
+                            <div class="album_first">
+                                <div class="album">
+                                    <div class="album_frame1" id="album_frame1" onclick=""></div>
+                                    <div class="album_title">투모로우바이투게..</div>
+                                </div>
+                                <div class="album">
+                                    <div class="album_frame2" id="album_frame2" onclick=""></div>
+                                    <div class="album_title">Billie Eilish</div>
+                                </div>
+                                <div class="album">
+                                    <div class="album_frame3" id="album_frame3" onclick=""></div>
+                                    <div class="album_title">Various Artists</div>
+                                </div>
+                            </div>
+                            <div class="album_second">
+                                <div class="album">
+                                    <div class="album_frame4" id="album_frame4" onclick=""></div>
+                                    <div class="album_title">김태현</div>
+                                </div>
+                                <div class="album">
+                                    <div class="album_frame5" id="album_frame5" onclick=""></div>
+                                    <div class="album_title">Jade</div>
+                                </div>
+                                <div class="album">
+                                    <div class="album_frame6" id="album_frame6" onclick=""></div>
+                                    <div class="album_title">FL1X(플릭스)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body_big_album">
+                        <div class="big_album_wrapper">이벤트 일시정지 버튼</div>
+                        <div class="big_album" id="big_album" onclick=""></div>
+                    </div>
+                    <div class="body_loginAd">
+                        <div class="body_login">
+                            <div class="login_wrapper">
+                                <div class="login_wrapper_left">멜론을 더 안전하게 이용하세요</div>
+                                <div class="login_wrapper_right">
+                                    <div class="signUp" id="signUp" onclick="">회원가입</div>
+                                </div>
+                            </div>
+                            <div class="login_body">
+                                <div class="loginBtn" id="loginBtn" onclick="">로그인</div>
+                            </div>
+                        </div>
+                        <div class="body_ad">
+                            <div class="adpost" id="adpost" onclick=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body_bottom">
+                    <div class="body_issue">
+                        <div class="issue_wrapper">
+                            <div class="issue_wrapper_left">
+                                <div class="issue_title">인기 있어요</div>
+                                <div class="issue_intro">
+                                    지금 이슈가 되는 아티스트의 인기 컨텐츠입니다.
+                                </div>
+                            </div>
+                            <div class="issue_wrapper_right">
+                                <div class="issue_pageBtn" id="pageBtn" onclick="">페이지버튼</div>
+                            </div>
+                        </div>
+                        <div class="issue_content">
+                            <div class="issue_content1">
+                                <div class="issue">
+                                    <div class="issue_img1"></div>
+                                    <div class="issue_title1">[현아 댓글 이벤트]</div>
+                                    <div class="issue_intro1">독보적인 존재감의 워너비 아이콘</div>
+                                    <div class="issue_magazine1">멜론매거진 | 조회 7,177</div>
+                                </div>
+                                <div class="issue">
+                                    <div class="issue_img2"></div>
+                                    <div class="issue_title2">케이퍼 무비의 주인공으로 변신!</div>
+                                    <div class="issue_intro2">블리처스(BLITZERS) [WIN-DOW]</div>
+                                    <div class="issue_magazine2">멜론매거진 | 조회 511</div>
+                                </div>
+                                <div class="issue">
+                                    <div class="issue_img3"></div>
+                                    <div class="issue_title3">[P1Harmony 댓글 이벤트]</div>
+                                    <div class="issue_intro3">P1Harmony만의 개성과 자유로움</div>
+                                    <div class="issue_magazine3">멜론매거진 | 조회 2,071</div>
+                                </div>
+                            </div>
+                            <div class="issue_content2">
+                                <div class="issue">
+                                    <div class="issue_img4"></div>
+                                    <div class="issue_title4">[STACY(스테이씨) 댓글 이벤트]</div>
+                                    <div class="issue_intro4">사랑이란 이름의 용기가 필요해</div>
+                                    <div class="issue_magazine4">멜론매거진 | 조회 7,878</div>
+                                </div>
+                                <div class="issue">
+                                    <div class="issue_img5"></div>
+                                    <div class="issue_title5">[세븐틴 댓글 이벤트]</div>
+                                    <div class="issue_intro5">
+                                        모두의 꿈과 이상을 실현할 수 있는
+                                    </div>
+                                    <div class="issue_magazine5">멜론매거진 | 조회 47,080</div>
+                                </div>
+                                <div class="issue">
+                                    <div class="issue_img6"></div>
+                                    <div class="issue_title6">[멜론X인기가요]</div>
+                                    <div class="issue_intro6">폴라로이드 사진 이벤트 - ITZY</div>
+                                    <div class="issue_magazine6">멜론TV | 조회 1,646</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body_melonChart">
+                        <div class="melonChart_wrapper">
+                            <div class="melonChart_wrapper_left">멜론 차트</div>
+                            <div class="melonChart_wrapper_right">2022.07.22 14:00 기준</div>
+                        </div>
+                        <div class="melonChart_body">
+                            <div class="melonChart_ranking">
+                                <div class="melonChart_top100" id="top100" onclick="">TOP100</div>
+                                <div class="melonChart_popRanking" id="popRanking" onclick="">
+                                    POP
+                                </div>
+                                <br />
+                                <div class="melonChart_artist" id="artistRanking" onclick="">
+                                    아티스트
+                                </div>
+                            </div>
+                            <div class="melonChart_content"></div>
+                        </div>
+                        <div class="melonChart_bottom">
+                            <div class="melonChart_shuffle" id="shuffle" onclick="">셔플듣기</div>
+                            <div class="melonChart_viewMore" id="viewMore" onclick="">더보기</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

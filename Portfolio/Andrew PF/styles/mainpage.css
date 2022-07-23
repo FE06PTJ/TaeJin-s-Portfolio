@@ -46,8 +46,8 @@
     font-weight: bold;
 }
 
-.wrapper_restaurant {
-    background-image: url("../images/restaurant1.png");
+.wrapper_melon {
+    background-image: url("../images/Melon_logo.png");
     background-size: 100% 100%;
     cursor: pointer;
     width: 400px;
@@ -70,8 +70,8 @@
     font-weight: bold;
 }
 
-.wrapper_movie {
-    background-image: url("../images/movie1.png");
+.wrapper_auction {
+    background-image: url("../images/auction_logo.png");
     background-size: 100% 100%;
     cursor: pointer;
     width: 400px;
@@ -82,8 +82,8 @@
     font-weight: bold;
 }
 
-.wrapper_music {
-    background-image: url("../images/music1.png");
+.wrapper_yanolja {
+    background-image: url("../images/yanolja_logo.jpg");
     background-size: 100% 100%;
     cursor: pointer;
     width: 400px;

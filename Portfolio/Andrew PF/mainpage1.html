@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Developer Andrew</title>
+        <link href="./styles/mainpage1.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="background">
+            <div class="wrapper">
+                <div class="wrapper_title">Web Developer Andrew</div>
+                <div class="wrapper_menu">
+                    <div class="menu_contact">Contact me</div>
+                    <div class="menu_melon">Melon</div>
+                    <div class="menu_jogiyo">Jogiyo</div>
+                    <div class="menu_auction">Auction</div>
+                    <div class="menu_yanolja">Yanolja</div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="contactMe" id="contact">
+                    <div class="contact_wrapper">
+                        <div class="contact_wrapper_left">
+                            <div class="title">Contact me</div>
+
+                            <div class="description">
+                                Hi. I'm Andrew. I'm front-end web developer
+                            </div>
+
+                            <div class="inputbox">
+                                <div class="inputbox_name_email">
+                                    <input type="text" name="name" size="20" value="Name" />
+                                    <input type="text" name="email" size="20" value="Email" />
+                                </div>
+
+                                <div class="inputbox_subject">
+                                    <input type="text" name="subject" size="20" value="Subject" />
+                                </div>
+
+                                <div class="inputbox_message">
+                                    <input type="text" name="message" size="20" value="Message" />
+                                </div>
+                            </div>
+
+                            <div class="sendbutton" id="sendMessage" onclick="sendMessage()">
+                                Send Message
+                            </div>
+                        </div>
+                        <div class="contact_wrapper_right">
+                            <div class="box1">
+                                <div class="address">
+                                    11, Jangseungbaegi-ro 11ga-gil, Dongjak-gu, Seoul, Republic of
+                                    Korea
+                                </div>
+                                <div class="emailaddress">@ : tjpark@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <script>
+                    async function fetchHtmlAsText(url) {
+                        return await (await fetch(url)).text();
+                    }
+
+                    async function importPage(target) {
+                        document.querySelector("#" + target).innerHTML = await fetchHtmlAsText(
+                            target + ".html"
+                        );
+                    }
+                    importPage("contact");
+                </script> -->
+                <div class="portfolio">
+                    <div class="portfolio_title">WorkStation</div>
+                    <div class="portfolio_menu">
+                        <div class="menu_ref">Reference Page</div>
+                        <div class="menu_work">Work Page</div>
+                    </div>
+                    <div class="melon">
+                        <div class="nav_melon_ref">
+                            <a href="https://www.melon.com/">
+                                <img src="./images/Melon_logo.png" alt="Melon" />
+                            </a>
+                        </div>
+                        <div
+                            class="nav_melon_work"
+                            id="melon_work"
+                            onclick="location.href='melon.html'"
+                        ></div>
+                    </div>
+                    <div class="jogiyo">
+                        <div class="nav_jogiyo_ref">
+                            <a href="https://www.yogiyo.co.kr/mobile/#/">
+                                <img src="./images/jogiyo1.png" alt="Jogiyo" />
+                            </a>
+                        </div>
+                        <div
+                            class="nav_jogiyo_work"
+                            id="jogiyo_work"
+                            onclick="location.href='jogiyo.html'"
+                        ></div>
+                    </div>
+                    <div class="auction">
+                        <div class="nav_auction_ref">
+                            <a href="http://www.auction.co.kr/">
+                                <img src="./images/auction_logo.png" alt="Auction" />
+                            </a>
+                        </div>
+                        <div
+                            class="nav_auction_work"
+                            id="auction_work"
+                            onclick="location.href='auction.html'"
+                        ></div>
+                    </div>
+                    <div class="yanolja">
+                        <div class="nav_yanolja_ref">
+                            <a href="https://yanolja.in/">
+                                <img src="./images/yanolja_logo.jpg" alt="Yanolja" />
+                            </a>
+                        </div>
+                        <div
+                            class="nav_yanolja_work"
+                            id="yanolja_work"
+                            onclick="location.href='yanolja.html'"
+                        ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
